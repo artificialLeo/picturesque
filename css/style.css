@@ -177,6 +177,8 @@ html {
     top: -5px;
     width: 169px;
     height: 63px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 35px;
     font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 13.0124px;
@@ -197,7 +199,8 @@ html {
 }
 
 .top__btn1:active {
-    box-shadow: 0px -3px 0px 0px rgba(255,255,255,1);
+    box-shadow: inset 5px 5px 5px 0px rgba(0,0,0,0.75);
+
     outline: none;
 }
 
